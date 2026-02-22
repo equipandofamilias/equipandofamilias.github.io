@@ -68,6 +68,10 @@ section {
 	text-align: center;
 }
 
+.contactInfo p{
+	font-size: 15px;
+}
+
 input, textarea {
 	font-family: Poppins, Calibri, sans-serif;
 	width: 405px;
@@ -105,6 +109,10 @@ how to put together a dropdown menu. That's absolutely embarassing.
 
 .paddingBreak {
 	padding-right: 20px;
+}
+
+input, textarea {
+	width: 413px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -183,6 +191,12 @@ how to put together a dropdown menu. That's absolutely embarassing.
 	
 	.dropdown:hover .dropbtn {
 		background-color: darkgreen;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	input, textarea {
+		width: 313px;
 	}
 }
 
