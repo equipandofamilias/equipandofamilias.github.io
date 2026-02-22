@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="author" content="Azariah Easey, krdrabbits.com, easeystrings.com, americanfreedomtrain2026.us, bazinesdachurch.com, easey2playentertainment.com">
+		<meta name="viewport" content="width=device-width">
+		
+		<title>Contáctanos</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+		
+		<!--handwriting font used for navigation panel-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+		<link href="styles/main.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="dropdown">
+					<button class="dropdownButton" id="controlHidingScheme1">
+						=
+					</button>
+					<div class="dropdown-content">
+						<div class="navigationCenter">
+							<a href="index.html">Página de Destino</a> <!--pagina de inicio-->
+							<a href="quienes-somos.html">Quiénes Somos</a>
+							<a href="contactanos.html">Contáctanos</a>
+							<a href="eventos.html">Eventos</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<hr>
+			<h1 class="stylized">Contáctanos</h1>
+		</header>
+		
+		<main>
+			<section>
+				<h2 class="hiddenTags">&iexcl;Contácten a la familia Stout!</h2>
+				<p>Have any questions or prayer requests? You can contact Equipando Familias using this form as well 
+				as using the contact information provided on this page.</p>
+				<div class="contactInfo">
+					<p><b>Email: </b>chord57@hotmail.com</p>
+					<p><b>Developer: </b>azariahcomputerscientist@gmail.com</p>
+				</div>
+				
+				<form action="https://formsubmit.co/equipandofamilias247@gmail.com" class="contactInfo" method="POST">
+					<input type="email" name="email" id="email" placeholder="Email"><br><br>
+					<input type="text" name="subject" id="subject" placeholder="Subject Line"><br><br>
+					<textarea name="message" id="message" placeholder="Message"></textarea><br><br>
+					<input type="hidden" name="_next" value="https://equipandofamilias.com/mensaje-enviado.html">
+					<input type="submit" name="Submit">
+				</form>
+			</section>
+		</main>
+		
+		<footer>
+		</footer>
+		
+		<script>
+			var textarea = $("message");
+			
+			textarea.oninput = function() {
+				console.log(textarea.scrollHeight > 208 && textarea.scrollHeight > +textarea.style.height.replace("px", ''));
+				if(textarea.scrollHeight > 208 && textarea.scrollHeight > +textarea.style.height.replace("px", '')) {
+					textarea.style.height = "";
+					textarea.style.height = textarea.scrollHeight + "px";
+				}
+			}
+			
+			function $(id) { return document.getElementById(id);}
+		</script>
+	</body>
+</html>

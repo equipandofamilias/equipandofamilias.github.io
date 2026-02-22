@@ -1,0 +1,205 @@
+body {
+	font-family: Poppins, Calibri, sans-serif;
+}
+
+nav .dropdown .dropdown-content, h1, section h2 {
+	text-align: center;
+	/*background-color: green; /*work on this bug later*/
+}
+
+.hiddenTags {
+	display: none;
+}
+
+h5 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 24.5px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p, h6 {
+	font-size: 22px;
+}
+
+nav a {
+	padding-right: 20px;
+	font-family: "Dancing Script", Poppins, Calibri, sans-serif;
+	font-size: 30px;
+	color: orange; /*coudl use coral instead*/
+}
+
+nav a:hover {
+	color: #FFE6B8; /*could use orange instead*/
+}
+
+.navigationCenter {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px black;
+}
+
+.stylized {
+	font-family: "Dancing Script", Poppins, Calibri, sans-serif;
+	font-size: 60px;
+	color: orange;
+	text-shadow: 1px 1px coral;
+}
+
+section {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.contactInfo {
+	text-align: center;
+}
+
+input, textarea {
+	font-family: Poppins, Calibri, sans-serif;
+	width: 405px;
+}
+
+textarea {
+	height: 200px;
+}
+
+input[type=submit] {
+	width: 100px;
+}
+
+.dropdownButton {
+	display: none;
+}
+
+/*After all these years of developing websites, I still don't know 
+how to put together a dropdown menu. That's absolutely embarassing.
+
+- Azariah Easey
+*/
+
+.imageContainer, .centeredText {
+	text-align: center;
+}
+
+.standardImage {
+	width: 400px;
+}
+
+.standardVertical {
+	width: 200px;
+}
+
+.paddingBreak {
+	padding-right: 20px;
+}
+
+@media only screen and (max-width: 1199px) {
+	section {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+	.paddingBreak {
+		padding-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 1099px) {
+	section {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 999px) {
+	section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/*@media only screen and (max-width: 860px) {
+	.standardImage {
+		width: 400px;
+	}
+}*/
+
+@media only screen and (max-width: 669px) {
+	.dropdownButton {
+		background-color: white;
+		color: black;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+		font-size: 4.0em;
+		display: initial;
+	}
+	
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: white;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+	
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+	
+	.dropdown-content a{
+		color: orange;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	
+	.dropdown-content a:hover {
+		background-color: darkgrey;
+	}
+	
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+	
+	.dropdown:hover .dropbtn {
+		background-color: darkgreen;
+	}
+}
+
+@media only screen and (max-width: 517px) {
+	.standardImage {
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 385px) {
+	.standardVertical {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	.standardImage {
+		width: 200px;
+	}
+} 
