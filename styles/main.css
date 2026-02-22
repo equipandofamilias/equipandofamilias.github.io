@@ -115,6 +115,16 @@ input, textarea {
 	width: 413px;
 }
 
+footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 10px;
+}
+
 @media only screen and (max-width: 1199px) {
 	section {
 		padding-left: 40px;
