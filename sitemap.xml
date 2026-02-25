@@ -6,21 +6,21 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 <!--https://equipandofamilias.com/index.html--> <!--This is more for the computer to know.--> 
 <url>
 <loc>https://equipandofamilias.com/index.html</loc> 
-<lastmod>2026-02-22</lastmod>
+<lastmod>2026-02-24</lastmod>
 </url> 
 <!--https://equipandofamilias.com/quienes-somos.html--> <!--This is more for the computer to know.--> 
 <url>
 <loc>https://equipandofamilias.com/quienes-somos.html</loc> 
-<lastmod>2026-02-22</lastmod>
+<lastmod>2026-02-24</lastmod>
 </url> 
 <!--https://equipandofamilias.com/eventos.html--> 
 <url>		 
 <loc>https://equipandofamilias.com/eventos.html</loc> 
-<lastmod>2026-02-22</lastmod> 
+<lastmod>2026-02-24</lastmod> 
 </url> 
 <!--https://equipandofamilias.com/contactanos.html--> 
 <url>		 
 <loc>https://equipandofamilias.com/contactanos.html</loc> 
-<lastmod>2026-02-22</lastmod> 
+<lastmod>2026-02-24</lastmod> 
 </url>  
 </urlset>
