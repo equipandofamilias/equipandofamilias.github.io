@@ -3,24 +3,24 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xmlns:xhtml="http://www.w3.org/1999/xhtml" 
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd">
-<!--https://equipandofamilias.com/index.html--> <!--This is more for the computer to know.--> 
+<!--https://equipandofamilias.com/--> <!--This is more for the computer to know.--> 
 <url>
-<loc>https://equipandofamilias.com/index.html</loc> 
+<loc>https://equipandofamilias.com/</loc> 
 <lastmod>2026-02-24</lastmod>
 </url> 
-<!--https://equipandofamilias.com/quienes-somos.html--> <!--This is more for the computer to know.--> 
+<!--https://equipandofamilias.com/quienes-somos--> <!--This is more for the computer to know.--> 
 <url>
-<loc>https://equipandofamilias.com/quienes-somos.html</loc> 
+<loc>https://equipandofamilias.com/quienes-somos</loc> 
 <lastmod>2026-02-24</lastmod>
 </url> 
-<!--https://equipandofamilias.com/eventos.html--> 
+<!--https://equipandofamilias.com/eventos--> 
 <url>		 
-<loc>https://equipandofamilias.com/eventos.html</loc> 
+<loc>https://equipandofamilias.com/eventos</loc> 
 <lastmod>2026-02-24</lastmod> 
 </url> 
-<!--https://equipandofamilias.com/contactanos.html--> 
+<!--https://equipandofamilias.com/contactanos--> 
 <url>		 
-<loc>https://equipandofamilias.com/contactanos.html</loc> 
+<loc>https://equipandofamilias.com/contactanos</loc> 
 <lastmod>2026-02-24</lastmod> 
 </url>  
 </urlset>
