@@ -31,6 +31,10 @@ p, h6 {
 	font-size: 22px;
 }
 
+nav {
+	user-select: none;
+}
+
 nav a {
 	padding-right: 20px;
 	font-family: "Dancing Script", Poppins, Calibri, sans-serif;
